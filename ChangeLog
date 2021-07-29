@@ -1,0 +1,1238 @@
+Sun Jan 31 14:36:34 GMT 2010  Martin Bays <mbays@freeshell.org>
+  tagged 0.4.4
+
+Sun Jan 31 14:36:23 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * version 0.4.4
+
+Sun Jan 31 14:35:56 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * conf file versioning, for future use
+
+Sun Jan 31 13:45:56 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * overhaul music of the nodes
+
+Sun Jan 31 13:44:51 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * initialise sdl after commandline processing
+  so -h and -V are acted on immediately
+
+Sun Jan 31 13:44:46 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * stop motion mode
+
+Sun Jan 31 13:26:25 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * enbiggen plusses on superblobs
+
+Sun Jan 31 11:45:20 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * install to pkgdatadir not datadir
+  Thanks to P Suetterlin for reporting this - was installing directly to /share!
+
+Fri Jan  8 12:11:26 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * fix stretched sound crackling
+
+Tue Jan  5 21:58:19 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * use freeview mode on END_EXTRACTED too
+
+Tue Jan  5 21:57:53 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * play sounds with position 0 straight ahead
+
+Tue Jan  5 21:57:11 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * reduce intensity of overlays when menu is up
+
+Mon Jan  4 20:53:02 GMT 2010  Martin Bays <mbays@freeshell.org>
+  * make new game clock start running only after setup complete
+
+Sun Oct 11 14:49:11 BST 2009  Martin Bays <mbays@freeshell.org>
+  * Adjustable sound frequency
+  (but not in-game, as trying to stop and restart audio exposes SDL_Mixer
+  bugs...)
+
+Fri Oct  9 16:22:01 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4.3
+
+Fri Oct  9 16:21:56 BST 2009  Martin Bays <mbays@freeshell.org>
+  * version 0.4.3
+
+Thu Oct  8 23:19:59 BST 2009  Martin Bays <mbays@freeshell.org>
+  * further background tweaks
+
+Thu Oct  8 22:53:52 BST 2009  Martin Bays <mbays@freeshell.org>
+  * rollback Floyd-Steinberg
+
+Thu Oct  8 22:46:48 BST 2009  Martin Bays <mbays@freeshell.org>
+  * use Floyd-Steinberg dithering algorithm
+
+Thu Oct  8 20:59:59 BST 2009  Martin Bays <mbays@freeshell.org>
+  * background tweaks
+
+Thu Oct  8 20:29:55 BST 2009  Martin Bays <mbays@freeshell.org>
+  * adjustable sound volume
+
+Wed Oct  7 19:08:46 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix accidental compile-time dependency on SDL_mixer headers
+
+Wed Oct  7 18:59:50 BST 2009  Martin Bays <mbays@freeshell.org>
+  * gaussian dithering for SOLAR background
+
+Mon Oct  5 22:38:49 BST 2009  Martin Bays <mbays@freeshell.org>
+  * move background stuff to a separate file
+
+Mon Oct  5 01:24:00 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4.2.1
+
+Mon Oct  5 01:23:57 BST 2009  Martin Bays <mbays@freeshell.org>
+  * version 0.4.2.1
+
+Mon Oct  5 01:21:42 BST 2009  Martin Bays <mbays@freeshell.org>
+  * dithering for SOLAR background
+
+Mon Oct  5 01:21:26 BST 2009  Martin Bays <mbays@freeshell.org>
+  * add Game Mechanics section to README
+
+Sun Oct  4 17:50:05 BST 2009  Martin Bays <mbays@freeshell.org>
+  * add gpl header to sound.cc
+
+Sun Oct  4 17:32:51 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4.2
+
+Sun Oct  4 17:32:48 BST 2009  Martin Bays <mbays@freeshell.org>
+  * version 0.4.2
+
+Sun Oct  4 17:31:28 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix problem with sound and high score reporting
+
+Sun Oct  4 16:07:53 BST 2009  Martin Bays <mbays@freeshell.org>
+  * base star colours on actual main sequence colours
+
+Sun Oct  4 15:54:21 BST 2009  Martin Bays <mbays@freeshell.org>
+  * background drawing
+
+Sun Oct  4 15:10:47 BST 2009  Martin Bays <mbays@freeshell.org>
+  * make Quit in menu exit menus, not game
+
+Sun Oct  4 13:42:37 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix ranf bug - wasn't working with input outside (0,1]
+
+Sun Oct  4 11:45:26 BST 2009  Martin Bays <mbays@freeshell.org>
+  * Keybindings phase II
+
+Sun Oct  4 01:51:43 BST 2009  Martin Bays <mbays@freeshell.org>
+  * drain 'extracted' quickly after a win
+
+Sat Oct  3 23:03:56 BST 2009  Martin Bays <mbays@freeshell.org>
+  * keybindings phase I
+
+Sat Oct  3 13:17:58 BST 2009  Martin Bays <mbays@freeshell.org>
+  * twiddlable turnRate; 'Control' menu
+
+Sat Sep 26 21:18:11 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4.1
+
+Sat Sep 26 21:18:07 BST 2009  Martin Bays <mbays@freeshell.org>
+  * version 0.4.1
+
+Sat Sep 26 21:14:24 BST 2009  Martin Bays <mbays@freeshell.org>
+  * bugfix: 'new[]' was matched with 'delete'
+
+Sat Aug 22 21:49:23 BST 2009  Martin Bays <mbays@freeshell.org>
+  * use major chords for captured nodes
+
+Tue Jun 23 23:00:50 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4
+
+Tue Jun 23 23:00:47 BST 2009  Martin Bays <mbays@freeshell.org>
+  * version 0.4
+
+Tue Jun 23 22:39:46 BST 2009  Martin Bays <mbays@freeshell.org>
+  * autoconf fix: set $host
+
+Tue Jun 23 22:14:05 BST 2009  Martin Bays <mbays@freeshell.org>
+  * warn on sound chunk loading failure
+
+Tue Jun 23 21:58:37 BST 2009  Martin Bays <mbays@freeshell.org>
+  * AI: don't pod own nodes
+
+Tue Jun 23 21:58:13 BST 2009  Martin Bays <mbays@freeshell.org>
+  * reduce mutchunk max pitch
+
+Tue Jun 23 21:44:41 BST 2009  Martin Bays <mbays@freeshell.org>
+  * set position of sound only once
+
+Sun Jun 21 21:38:14 BST 2009  Martin Bays <mbays@freeshell.org>
+  * sound tweaks
+
+Sun May 10 20:55:41 BST 2009  Martin Bays <mbays@freeshell.org>
+  * sound refinements
+
+Sun May 10 20:43:53 BST 2009  Martin Bays <mbays@freeshell.org>
+  * audio initialisation fixes
+
+Thu May  7 22:34:12 BST 2009  Martin Bays <mbays@freeshell.org>
+  * mutilated node noise
+
+Thu May  7 22:33:30 BST 2009  Martin Bays <mbays@freeshell.org>
+  * synchronise primed node glow with spin
+
+Sun May  3 23:37:20 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4-rc2
+
+Sun May  3 23:37:18 BST 2009  Martin Bays <mbays@freeshell.org>
+  * version 0.4-rc2
+
+Sun May  3 23:37:12 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix build system
+
+Sun May  3 23:08:09 BST 2009  Martin Bays <mbays@freeshell.org>
+  * remove music, replace with sound
+
+Sun May  3 22:30:05 BST 2009  Martin Bays <mbays@freeshell.org>
+  * sort build system for sound
+
+Sun May  3 21:43:31 BST 2009  Martin Bays <mbays@freeshell.org>
+  * mutilation sound; use ogg for sounds
+
+Sun May  3 17:33:07 BST 2009  Martin Bays <mbays@freeshell.org>
+  * change shot sound
+
+Sun May  3 00:08:46 BST 2009  Martin Bays <mbays@freeshell.org>
+  * nodes don't spin for evil
+
+Sat May  2 22:32:17 BST 2009  Martin Bays <mbays@freeshell.org>
+  * tweak sound volume
+
+Sat May  2 16:00:39 BST 2009  Martin Bays <mbays@freeshell.org>
+  * remove unnecessary clip elimination
+
+Sat May  2 16:00:02 BST 2009  Martin Bays <mbays@freeshell.org>
+  * normalise sounds; clip elimination
+
+Thu Apr 30 08:42:30 BST 2009  Martin Bays <mbays@freeshell.org>
+  * multiple scales
+
+Wed Apr 29 20:27:04 BST 2009  Martin Bays <mbays@freeshell.org>
+  * humming nodes
+
+Tue Apr 28 21:58:00 BST 2009  Martin Bays <mbays@freeshell.org>
+  * work around SDL_mixer bug
+
+Tue Apr 28 21:56:13 BST 2009  Martin Bays <mbays@freeshell.org>
+  * musical nodes
+
+Tue Apr 28 04:30:54 BST 2009  Martin Bays <mbays@freeshell.org>
+  * sound enhancements
+
+Tue Apr 28 01:34:48 BST 2009  Martin Bays <mbays@freeshell.org>
+  * rollback broken tempo scaling
+  
+  rolling back:
+  
+  Tue Apr 28 01:34:25 BST 2009  Martin Bays <mbays@freeshell.org>
+    * tempo scaling BROKEN
+  
+      M ./sound.cc -5 +54
+      M ./sound.h -5 +9
+
+Tue Apr 28 01:34:25 BST 2009  Martin Bays <mbays@freeshell.org>
+  * tempo scaling BROKEN
+
+Sun May  3 21:38:33 BST 2009  Martin Bays <mbays@freeshell.org>
+  * update AUTHORS and licenses
+
+Sun May  3 00:09:18 BST 2009  Martin Bays <mbays@freeshell.org>
+  * further sounds
+
+Sat May  2 23:32:29 BST 2009  Martin Bays <mbays@freeshell.org>
+  * node flaring
+
+Sat May  2 14:32:26 BST 2009  Martin Bays <mbays@freeshell.org>
+  * compress kickdrum-low
+
+Tue Apr 28 21:57:20 BST 2009  Martin Bays <mbays@freeshell.org>
+  * LockAudio when changing stretch, just in case
+
+Tue Apr 28 21:57:00 BST 2009  Martin Bays <mbays@freeshell.org>
+  * mixer code cleaning
+
+Tue Apr 28 04:29:41 BST 2009  Martin Bays <mbays@freeshell.org>
+  * SDL_mixer hack: stretching
+
+Tue Apr 28 02:09:16 BST 2009  Martin Bays <mbays@freeshell.org>
+  * include a slightly stripped down version of SDL_mixer
+  and disable music, for now at least
+
+Sun Apr 26 23:32:07 BST 2009  Martin Bays <mbays@freeshell.org>
+  * sound
+
+Sat May  2 22:32:56 BST 2009  Martin Bays <mbays@freeshell.org>
+  * don't draw retracted node struts
+
+Sat May  2 23:00:03 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix angleDiff
+
+Tue Apr 28 13:15:45 BST 2009  Martin Bays <mbays@freeshell.org>
+  * evil retakes nodes after mutilation
+
+Sun Apr 26 18:45:51 BST 2009  Martin Bays <mbays@freeshell.org>
+  tagged 0.4-rc1
+
+Sun Apr 26 18:45:33 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix automake oops
+
+Sun Apr 26 18:41:13 BST 2009  Martin Bays <mbays@freeshell.org>
+  * update docs
+
+Sun Apr 26 18:38:01 BST 2009  Martin Bays <mbays@freeshell.org>
+  * reduce rate for a given rating at higher speeds
+
+Sun Apr 26 18:37:28 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix mode parsing bug
+
+Sun Apr 26 18:27:16 BST 2009  Martin Bays <mbays@freeshell.org>
+  * pay attention to -r
+
+Sun Apr 26 17:49:40 BST 2009  Martin Bays <mbays@freeshell.org>
+  * high score protocol versioning
+
+Sun Apr 26 17:37:49 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix menu and overlay unsightliness
+
+Sun Apr 26 14:51:45 BST 2009  Martin Bays <mbays@freeshell.org>
+  * show current FPS to 0 d.p.
+
+Sun Apr 26 14:43:39 BST 2009  Martin Bays <mbays@freeshell.org>
+  * display mode setting and saving
+
+Sun Apr 26 14:42:12 BST 2009  Martin Bays <mbays@freeshell.org>
+  * space/return pops menus
+
+Sun Apr 26 13:59:59 BST 2009  Martin Bays <mbays@freeshell.org>
+  * improve menu display
+
+Sun Apr 26 12:57:21 BST 2009  Martin Bays <mbays@freeshell.org>
+  * use overlay for splash instructions
+
+Sat Apr 25 22:23:21 BST 2009  Martin Bays <mbays@freeshell.org>
+  * update copyright statements
+
+Sat Apr 25 22:22:41 BST 2009  Martin Bays <mbays@freeshell.org>
+  * code cleaning
+
+Sat Apr 25 22:19:03 BST 2009  Martin Bays <mbays@freeshell.org>
+  * text overlays
+
+Sat Apr 25 19:37:09 BST 2009  Martin Bays <mbays@freeshell.org>
+  * speed polish
+
+Fri Apr 24 14:40:08 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix long lines
+
+Fri Apr 24 14:32:59 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix '='
+
+Fri Apr 24 14:21:55 BST 2009  Martin Bays <mbays@freeshell.org>
+  * menu neatening
+
+Fri Apr 24 14:18:31 BST 2009  Martin Bays <mbays@freeshell.org>
+  * high score server code
+
+Fri Apr 24 14:16:13 BST 2009  Martin Bays <mbays@freeshell.org>
+  * multiple speeds
+
+Fri Apr 24 12:46:07 BST 2009  Martin Bays <mbays@freeshell.org>
+  * minor
+
+Fri Apr 24 12:27:36 BST 2009  Martin Bays <mbays@freeshell.org>
+  * splash screen
+
+Fri Apr 24 12:27:33 BST 2009  Martin Bays <mbays@freeshell.org>
+  * ai tweaks
+
+Thu Apr 23 15:37:36 BST 2009  Martin Bays <mbays@freeshell.org>
+  * doc updates
+
+Thu Apr 23 15:37:28 BST 2009  Martin Bays <mbays@freeshell.org>
+  * ai fixes
+
+Wed Apr 22 23:27:14 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix sparks crash bug
+
+Wed Apr 22 21:12:48 BST 2009  Martin Bays <mbays@freeshell.org>
+  * --aispeed
+
+Wed Apr 22 21:12:08 BST 2009  Martin Bays <mbays@freeshell.org>
+  * improve handling of extreme clock rates
+
+Wed Apr 22 18:57:19 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix spark bugs
+
+Wed Apr 22 16:54:58 BST 2009  Martin Bays <mbays@freeshell.org>
+  * BasicAI improvements
+
+Wed Apr 22 10:29:42 BST 2009  Martin Bays <mbays@freeshell.org>
+  * non-cheating ai, only knows what it's seen
+
+Wed Apr 22 01:53:34 BST 2009  Martin Bays <mbays@freeshell.org>
+  * AI integration
+
+Wed Apr 22 01:53:29 BST 2009  Martin Bays <mbays@freeshell.org>
+  * BasicAI
+
+Tue Apr 21 23:17:52 BST 2009  Martin Bays <mbays@freeshell.org>
+  * misc prep for BasicAI
+
+Tue Apr 21 23:14:20 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix large sim stepsize at high speed
+
+Tue Apr 21 18:51:20 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix compile bug
+
+Tue Apr 21 17:55:15 BST 2009  Martin Bays <mbays@freeshell.org>
+  * fix ridiculous collision bug
+
+Tue Apr 21 11:50:35 BST 2009  Martin Bays <mbays@freeshell.org>
+  * resolve conflicts
+
+Tue Apr 21 11:48:00 BST 2009  Martin Bays <mbays@freeshell.org>
+  * ai infrastructure, cheap and cheerful
+
+Wed Feb 11 20:00:16 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * high score reporting
+
+Tue Feb 10 21:27:47 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * fix shift detection bug
+
+Tue Feb 10 10:51:57 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * video recording
+
+Mon Feb  9 19:58:32 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * rollback high score sending
+
+Mon Feb  9 19:57:56 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * high score sending, phase 0.5
+
+Sat Jan 31 15:31:11 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * extraction decay
+
+Tue Jan 20 00:38:06 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * high score
+
+Tue Jan 20 00:37:14 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * improve debugging
+
+Mon Jan 19 23:11:40 GMT 2009  Martin Bays <mbays@freeshell.org>
+  * minor code clean
+
+Sun Nov 23 11:38:37 GMT 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.3.3.1
+
+Sun Nov 23 11:38:34 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.3.3.1
+
+Fri Nov 21 18:22:33 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * fix bugs with prime and shield glowing
+
+Thu Nov 20 00:14:00 GMT 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.3.3
+
+Thu Nov 20 00:13:57 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.3.3
+
+Thu Nov 20 00:13:15 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * increase purple-induced dodge rate
+
+Thu Nov 20 00:09:46 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * rollback regression with rating updates
+
+Thu Nov 20 00:08:44 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * rating boost for winning while crap
+
+Wed Nov 19 23:58:00 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * remove upper cap on rating
+
+Wed Nov 19 23:56:07 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * show paused state
+
+Wed Nov 19 23:43:45 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * debug mode
+
+Wed Nov 19 23:43:20 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * while paused, draw only when necessary
+
+Wed Nov 19 17:43:23 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * don't forfeit on quit in invuln mode
+
+Wed Nov 19 17:43:15 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * blue meanie damage representation overhaul
+
+Wed Nov 19 17:31:23 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * don't handle free view input when menus up
+
+Wed Nov 19 17:26:12 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * don't use aa for very large circles
+
+Wed Nov 19 17:25:54 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * node priming prongs
+
+Tue Nov 18 23:59:15 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * rollback bruising
+    * blue meanie bruising (doesn't work very well)
+      M ./invaders.cc -10 +14
+      M ./invaders.h +1
+
+Tue Nov 18 23:58:42 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * blue meanie bruising (doesn't work very well)
+
+Tue Nov 18 22:53:35 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * use Angle class for phases
+
+Tue Nov 18 22:53:12 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * depriming
+
+Tue Nov 18 22:52:55 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * give super pods 3 hp
+
+Tue Nov 18 22:51:03 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * premutilation
+
+Tue Nov 18 01:44:00 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * make glowPhase start on an upstroke
+
+Tue Nov 18 00:56:06 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * extraction sparks
+
+Mon Nov 17 23:31:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * node->extract()
+
+Mon Nov 17 17:42:41 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * implement minimum simulation step time
+
+Sun Nov 16 21:17:44 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * "free view mode" on death
+
+Sun Nov 16 21:01:25 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * fix bug with boundView and circles
+
+Sun Nov 16 20:22:11 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * Make blue meanie shield fullness more obvious
+
+Thu Nov 13 22:09:37 GMT 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.3.2
+
+Thu Nov 13 22:08:13 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.3.2
+
+Wed Nov 12 19:57:02 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * orangify targetting crosshairs when too hot to pod
+
+Wed Nov 12 19:33:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * fix possible small bug with lastStateUpdate getting out of sync
+
+Wed Nov 12 15:40:24 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * update README
+
+Wed Nov 12 14:16:56 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * don't trust accuracy of SDL_Delay()
+  This patch greatly improves smoothness when machine is under heavy load
+
+Mon Nov 10 23:51:01 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * better handle small screen size
+
+Sun Nov  9 23:09:29 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * boost cyan power for evil
+
+Wed Nov  5 12:24:02 GMT 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.3.1.1
+
+Wed Nov  5 12:23:58 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.3.1.1
+
+Wed Nov  5 12:23:44 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * add SDL_gfxPrimitives_font.h from SDL_gfx-2.0.17
+  (now we *really* don't depend on SDL_gfx)
+
+Sat Nov  1 11:12:09 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * stop state handling input while menus are up
+
+Sun Oct 26 14:15:40 GMT 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.3.1
+
+Sun Oct 26 14:15:37 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.3.1
+
+Sun Oct 26 14:12:00 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * bugfix
+
+Sun Oct 26 14:09:34 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * settings saving
+
+Wed Oct 22 22:19:43 BST 2008  Martin Bays <mbays@freeshell.org>
+  * trim trailing whitespace
+
+Wed Oct 22 22:18:02 BST 2008  Martin Bays <mbays@freeshell.org>
+  * enable key repeat
+
+Mon Oct 20 20:21:52 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update shootHeat even after death
+
+Mon Oct 20 20:21:08 BST 2008  Martin Bays <mbays@freeshell.org>
+  * bugfix: always note newly increased rating
+
+Mon Oct 20 20:20:59 BST 2008  Martin Bays <mbays@freeshell.org>
+  * menus
+
+Sun Oct 19 21:16:46 BST 2008  Martin Bays <mbays@freeshell.org>
+  * make aaGamma alterable
+
+Fri Oct 10 19:29:44 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.3
+
+Fri Oct 10 19:29:40 BST 2008  Martin Bays <mbays@freeshell.org>
+  * 0.3
+
+Fri Oct 10 19:29:06 BST 2008  Martin Bays <mbays@freeshell.org>
+  * gamma correction for antialiasing
+
+Fri Oct 10 19:14:13 BST 2008  Martin Bays <mbays@freeshell.org>
+  * clean options list
+
+Sat Sep 27 16:22:54 BST 2008  Martin Bays <mbays@freeshell.org>
+  * disallow simultaneous deaiming and dezooming
+
+Sat Sep 27 16:22:35 BST 2008  Martin Bays <mbays@freeshell.org>
+  * workaround for size 1 aa circles
+
+Sat Sep 27 16:21:36 BST 2008  Martin Bays <mbays@freeshell.org>
+  * add missed aa case
+
+Sat Sep 27 12:53:45 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix compilation warnings in SDL_gfxPrimitivesDirty.cc
+
+Sat Sep 27 12:49:56 BST 2008  Martin Bays <mbays@freeshell.org>
+  * dirty pixels bugfixes
+
+Sat Sep 27 12:21:22 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update AUTHORS
+
+Sat Sep 27 12:10:49 BST 2008  Martin Bays <mbays@freeshell.org>
+  * clean
+
+Sat Sep 27 12:08:51 BST 2008  Martin Bays <mbays@freeshell.org>
+  * don't use buggy MODIFIED_ALPHA_PIXEL_ROUTINE; remove 32bpp workaround
+
+Fri Sep 26 23:03:22 BST 2008  Martin Bays <mbays@freeshell.org>
+  * dirty pixels
+  SDL_gfx is no longer a dependency - SDL_gfxPrimitives.{c,h} has been copied
+  into the tree, and hacked to provide the "dirty pixels" handling I wanted.
+  This new blanking method is much neater than the old one, and handles
+  antialiasing.
+
+Fri Sep 26 20:49:31 BST 2008  Martin Bays <mbays@freeshell.org>
+  * rollback buggy blanking
+
+Fri Sep 26 00:36:45 BST 2008  Martin Bays <mbays@freeshell.org>
+  * more efficient blanking for aa lines and circles
+  BUGGY
+
+Sat Sep 27 12:17:23 BST 2008  Martin Bays <mbays@freeshell.org>
+  * 3 level antialias options
+
+Wed Sep 24 22:26:13 BST 2008  Martin Bays <mbays@freeshell.org>
+  * shift rating bands to compensate for decrease in difficulty
+
+Wed Sep 24 22:25:19 BST 2008  Martin Bays <mbays@freeshell.org>
+  * make blue meanies "cost" more than normal blobs
+
+Tue Sep 23 19:15:12 BST 2008  Martin Bays <mbays@freeshell.org>
+  * more informative node targetting indicators
+
+Tue Sep 23 00:35:29 BST 2008  Martin Bays <mbays@freeshell.org>
+  * nerf blue nodes
+
+Mon Sep 22 23:52:58 BST 2008  Martin Bays <mbays@freeshell.org>
+  * randomize node positions if rating > 5.0
+
+Mon Sep 22 23:28:28 BST 2008  Martin Bays <mbays@freeshell.org>
+  * set rating in GameState constructor
+
+Mon Sep 22 23:25:12 BST 2008  Martin Bays <mbays@freeshell.org>
+  * rearrange initialization code
+
+Mon Sep 22 22:28:39 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] don't reduce rating on quitting an ended game
+
+Wed Sep 17 18:12:37 BST 2008  Martin Bays <mbays@freeshell.org>
+  * rollback highlighting of shield indicator endpoints
+  ...because it looks a bit silly.
+  
+  rolling back:
+  
+  Fri Sep 12 18:19:57 BST 2008  Martin Bays <mbays@freeshell.org>
+    * highlight endpoints of indicators
+  
+      M ./state.cc -7 +8
+
+Mon Sep 15 20:09:14 BST 2008  Martin Bays <mbays@freeshell.org>
+  * music
+  with thanks to skope and spot
+
+Mon Sep 15 20:05:34 BST 2008  Martin Bays <mbays@freeshell.org>
+  * make findDataPath usable
+
+Fri Sep 12 18:20:41 BST 2008  Martin Bays <mbays@freeshell.org>
+  * make hints sentences
+
+Fri Sep 12 18:19:57 BST 2008  Martin Bays <mbays@freeshell.org>
+  * highlight endpoints of indicators
+
+Fri Sep 12 18:19:38 BST 2008  Martin Bays <mbays@freeshell.org>
+  * approxAtan2Frac: improve accuracy and documentation
+
+Thu Sep 11 19:51:28 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix up autogen.sh
+
+Thu Sep 11 19:14:44 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] fix CapturePod::fleeOnWin
+
+Wed Sep 10 13:47:53 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.2.3.2
+
+Wed Sep 10 13:47:49 BST 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.2.3.2
+
+Wed Sep 10 13:44:35 BST 2008  Martin Bays <mbays@freeshell.org>
+  * don't use double buffering
+  ...since the blanking code really doesn't play nicely with it.
+
+Wed Sep 10 13:29:12 BST 2008  Martin Bays <mbays@freeshell.org>
+  * add autogen.sh
+
+Tue Sep  9 07:17:26 BST 2008  Sijmen Mulder <sjmulder@gmail.com>
+  * Don't force 24-bit on Mac
+
+Tue Sep  9 07:17:04 BST 2008  Sijmen Mulder <sjmulder@gmail.com>
+  * config.h not on Mac
+
+Tue Sep  9 07:14:10 BST 2008  Sijmen Mulder <sjmulder@gmail.com>
+  * Mac version should not use SDL double buffering
+
+Mon Sep  8 12:40:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.2.3.1
+
+Mon Sep  8 12:39:55 BST 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.2.3.1
+
+Mon Sep  8 12:36:59 BST 2008  Martin Bays <mbays@freeshell.org>
+  * use new/delete to handle gameState
+  Failure to do this was causing a very nasty bug with node collision
+  detection, most likely a memleak, and probably some more bugs I didn't
+  notice...
+
+Sun Sep  7 22:57:49 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.2.3
+
+Sun Sep  7 22:57:43 BST 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.2.3
+
+Sun Sep  7 22:56:54 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] blank outer circle properly
+
+Sun Sep  7 22:56:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  * screenshots
+
+Sun Sep  7 22:55:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] detect '+' properly
+
+Sun Sep  7 22:18:54 BST 2008  Martin Bays <mbays@freeshell.org>
+  * hints
+
+Sun Sep  7 20:13:20 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update README
+
+Sun Sep  7 19:24:37 BST 2008  Martin Bays <mbays@freeshell.org>
+  * let autoconf make a config.h, to reduce -D spam
+
+Sun Sep  7 19:23:44 BST 2008  Martin Bays <mbays@freeshell.org>
+  * use $datadir for font path
+
+Sun Sep  7 17:44:06 BST 2008  Martin Bays <mbays@freeshell.org>
+  * drawInfo: allow 3 digits for fps
+
+Sun Sep  7 17:38:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  * SDL_RESIZABLE by default; rework command-line options
+
+Sun Sep  7 17:37:09 BST 2008  Martin Bays <mbays@freeshell.org>
+  * blank in AA mode too; enable AA by default
+  (since turning off AA now gives only a very modest performance improvement)
+
+Sun Sep  7 17:35:21 BST 2008  Martin Bays <mbays@freeshell.org>
+  * make indicator geometry part of ScreenGeom
+
+Sun Sep  7 17:12:55 BST 2008  Martin Bays <mbays@freeshell.org>
+  * parse commandline before SDL_Init
+
+Sun Sep  7 14:46:17 BST 2008  Martin Bays <mbays@freeshell.org>
+  * kill capture pods on capture: this fixes various edge-case bugs
+
+Sun Sep  7 14:21:50 BST 2008  Martin Bays <mbays@freeshell.org>
+  * blue meanies with no target now flee
+
+Sun Sep  7 14:20:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] cc.velocity was always 0!
+
+Sat Sep  6 19:24:13 BST 2008  Martin Bays <mbays@freeshell.org>
+  * rollback drawIndicatorsRectangular
+  
+  rolling back:
+  
+  Sat Sep  6 19:22:01 BST 2008  Martin Bays <mbays@freeshell.org>
+    * drawIndicatorsRectangular
+    To test whether the slowness of drawIndicators is due to the trigonometric
+    calculations involved. It seems that it isn't - no appreciable speedup when
+    using drawIndicatorsRectangular instead of the usual code.
+  
+      M ./state.cc -3 +91
+      M ./state.h +4
+
+Sat Sep  6 19:22:01 BST 2008  Martin Bays <mbays@freeshell.org>
+  * drawIndicatorsRectangular
+  To test whether the slowness of drawIndicators is due to the trigonometric
+  calculations involved. It seems that it isn't - no appreciable speedup when
+  using drawIndicatorsRectangular instead of the usual code.
+
+Sat Sep  6 19:09:01 BST 2008  Martin Bays <mbays@freeshell.org>
+  * 'make profile' target
+
+Sat Sep  6 18:33:19 BST 2008  Martin Bays <mbays@freeshell.org>
+  * draw indicators before grid
+
+Sat Sep  6 18:29:59 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix approxAtan2Frac oops
+
+Sat Sep  6 18:17:58 BST 2008  Martin Bays <mbays@freeshell.org>
+  * drawIndicator code cleanup
+
+Sat Sep  6 17:55:08 BST 2008  Martin Bays <mbays@freeshell.org>
+  * indicator decay prettiness
+
+Sat Sep  6 17:40:15 BST 2008  Martin Bays <mbays@freeshell.org>
+  * drawIndicator optimisations
+
+Sat Sep  6 13:28:48 BST 2008  Martin Bays <mbays@freeshell.org>
+  * separate out GameState::draw
+
+Sat Sep  6 12:35:17 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix edge-case bug with capture of infested nodes
+
+Fri Sep  5 12:23:49 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix up initialisation code
+
+Thu Sep  4 16:37:23 BST 2008  Sijmen Mulder <sjmulder@gmail.com>
+  * Mac version overhaul, GUI
+
+Thu Sep  4 23:19:17 BST 2008  Sijmen Mulder <sjmulder@gmail.com>
+  * Version string for Mac to 0.2.2
+
+Thu Sep  4 21:42:34 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.2.2
+
+Thu Sep  4 21:42:23 BST 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.2.2
+
+Thu Sep  4 21:27:26 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update BUGS
+
+Thu Sep  4 21:27:02 BST 2008  Martin Bays <mbays@freeshell.org>
+  * compile with -Wall -pedantic; fix bugs thrown up by this; add 'debug' target
+
+Thu Sep  4 21:23:01 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix up pointHitsPolygon
+
+Thu Sep  4 20:18:56 BST 2008  Martin Bays <mbays@freeshell.org>
+  * pixelColor -> Pixel().draw()
+
+Wed Sep  3 22:13:09 BST 2008  Martin Bays <mbays@freeshell.org>
+  * include Mac tree in make dist
+
+Wed Sep  3 20:30:05 BST 2008  Martin Bays <mbays@freeshell.org>
+  * set useAA to false by default (since much faster without it now)
+
+Wed Sep  3 20:28:43 BST 2008  Martin Bays <mbays@freeshell.org>
+  * optimize drawing
+
+Wed Sep  3 17:21:07 BST 2008  Martin Bays <mbays@freeshell.org>
+  * SDL_gfx: use "original" alpha pixel routine
+  (there are unresolved alpha blending issues with the "modified" routine)
+
+Wed Sep  3 17:20:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  * add README, COPYING and LICENSE from SDL_gfx distribution to the copy in the Mac port tree
+
+Wed Sep  3 14:59:37 BST 2008  sjmulder@gmail.com
+  * Mac port
+
+Wed Sep  3 13:04:24 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update AUTHORS, BUGS
+
+Tue Sep  2 23:44:54 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.2.1
+
+Tue Sep  2 23:44:50 BST 2008  Martin Bays <mbays@freeshell.org>
+  * version 0.2.1
+
+Tue Sep  2 23:41:42 BST 2008  Martin Bays <mbays@freeshell.org>
+  * Avoid 32bpp unless asked for.
+  This is to work around an issue with SDL_gfx.
+
+Tue Sep  2 23:25:39 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update TODO, AUTHORS
+
+Tue Sep  2 23:23:50 BST 2008  Martin Bays <mbays@freeshell.org>
+  * anti-aliasing on by default
+
+Tue Sep  2 23:16:18 BST 2008  Martin Bays <mbays@freeshell.org>
+  * initial rating 3.0 |-> 5.0
+
+Tue Sep  2 20:50:06 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fps regulation
+
+Tue Sep  2 20:30:41 BST 2008  Martin Bays <mbays@freeshell.org>
+  * pointHitsPolygon: float |-> double, in hopes of squishing weird bug
+
+Tue Sep  2 20:15:38 BST 2008  Martin Bays <mbays@freeshell.org>
+  * draw shots as originating from you, not behind you
+
+Tue Sep  2 20:07:01 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix healing blue meanie colours
+
+Tue Sep  2 10:50:11 BST 2008  Martin Bays <mbays@freeshell.org>
+  * update README
+
+Mon Sep  1 23:53:51 BST 2008  Martin Bays <mbays@freeshell.org>
+  * add missing GPL boilerplate to source files
+
+Sun Aug 31 13:14:02 BST 2008  Martin Bays <mbays@freeshell.org>
+  tagged 0.2
+
+Sun Aug 31 13:13:57 BST 2008  Martin Bays <mbays@freeshell.org>
+  * autofoo build system
+
+Sun Aug 31 11:01:30 BST 2008  Martin Bays <mbays@freeshell.org>
+  * config -> conffile
+
+Sun Aug 31 10:41:46 BST 2008  Martin Bays <mbays@freeshell.org>
+  * don't use aa for targetting lines
+
+Sun Aug 31 10:40:40 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] rating was writing to config when it shouldn't have
+
+Sat Aug 30 18:10:55 BST 2008  Martin Bays <mbays@freeshell.org>
+  * self-normalising Angle class
+
+Sat Aug 30 17:00:59 BST 2008  Martin Bays <mbays@freeshell.org>
+  * spinning nodes
+
+Sat Aug 30 16:32:03 BST 2008  Martin Bays <mbays@freeshell.org>
+  * grid
+
+Sat Aug 30 12:27:25 BST 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] polygon collision
+
+Mon Aug 11 18:56:28 BST 2008  Martin Bays <mbays@freeshell.org>
+  * add key list to README
+
+Sat Aug  2 12:26:51 BST 2008  Martin Bays <mbays@freeshell.org>
+  * rationalise ending handling
+
+Fri Aug  1 21:04:57 BST 2008  Martin Bays <mbays@freeshell.org>
+  * fix up includes
+
+Fri Aug  1 20:50:15 BST 2008  Martin Bays <mbays@freeshell.org>
+  * add missing files config.{cc,h}
+
+Fri Aug  1 20:43:27 BST 2008  Martin Bays <mbays@freeshell.org>
+  * restarting
+
+Fri Aug  1 18:23:30 BST 2008  Martin Bays <mbays@freeshell.org>
+  * evil flees on victory
+
+Fri Aug  1 18:23:01 BST 2008  Martin Bays <mbays@freeshell.org>
+  * blue meanies: hp 4->3
+
+Tue Jul 29 13:12:49 BST 2008  Martin Bays <mbays@freeshell.org>
+  * don't affect rating if invuln
+
+Sat Jul 26 10:33:25 BST 2008  Martin Bays <mbays@freeshell.org>
+  * added a README
+
+Sat Jul 26 10:33:15 BST 2008  Martin Bays <mbays@freeshell.org>
+  * glowing
+
+Fri Jul 25 10:13:14 BST 2008  Martin Bays <mbays@freeshell.org>
+  * don't draw while paused
+
+Thu Jul 24 17:19:29 BST 2008  Martin Bays <mbays@freeshell.org>
+  * ratings
+
+Sat Apr 19 21:11:29 BST 2008  Martin Bays <mbays@freeshell.org>
+  * use getopt option parsing
+
+Sat Apr 19 21:04:46 BST 2008  Martin Bays <mbays@freeshell.org>
+  * improve video mode selection
+
+Thu Apr 10 21:07:54 BST 2008  Martin Bays <mbays@freeshell.org>
+  UNDO: new shield mechanics; pods cost shield energy
+
+Thu Apr 10 21:07:54 BST 2008  Martin Bays <mbays@freeshell.org>
+  * new shield mechanics; pods cost shield energy
+
+Tue Mar  4 13:02:11 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * name change: snipe -> kuklomenos
+
+Sun Mar  2 13:20:56 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes: tweaks
+
+Fri Feb 29 19:41:47 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * split up GameState::update()
+
+Wed Feb 27 22:33:42 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * triangular nodes
+
+Wed Feb 27 17:36:17 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes: further tweaks
+
+Tue Feb 26 15:53:18 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes: tweaks; indicators; mutilation
+
+Sun Feb 24 18:59:12 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * [nodes] [bugfix]
+
+Sun Feb 24 18:37:46 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * bugfix: new spawn collisions
+  Did have collision checks before setting of CollisionObject
+
+Sun Feb 24 18:35:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes infestatian ai tweaks
+
+Sun Feb 24 18:02:03 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes and polish
+
+Sat Feb 23 19:19:22 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] don't show out-of-bounds shot tips
+
+Sat Feb 23 18:32:12 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes and powers
+
+Sat Feb 23 17:04:58 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes and capture
+
+Sat Feb 23 14:17:42 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * nodes and infestation
+
+Sun Feb  3 16:42:26 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * kamikaze colours
+
+Sun Feb  3 14:29:06 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * splitting animation
+
+Sun Feb  3 13:44:02 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * filled invaders
+
+Sun Feb  3 01:58:40 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * makefile bugfix
+
+Sun Feb  3 01:58:10 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * [tweak] increase aim rotation speed
+
+Sun Feb  3 01:57:41 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * don't force bpp
+
+Sat Feb  2 21:19:31 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * bugfix: allow high framerates
+
+Fri Feb  1 00:53:09 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * fps calculation
+
+Fri Feb  1 00:34:25 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * findDataPath
+
+Thu Jan 31 23:40:17 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * snipe.cc -> main.cc
+
+Thu Jan 31 23:39:44 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * look in /usr/local for data
+
+Thu Jan 31 23:33:48 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * cleanup
+
+Thu Jan 31 21:45:27 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * add optional anti-aliasing; new settings infrastructure
+
+Wed Jan 30 18:49:31 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * add dezooming
+
+Mon Jan 28 13:50:32 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * add missing files: {clock,data}{.h,.cc}
+
+Sun Jan 27 23:20:37 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * fonts; info box
+
+Sun Jan 27 21:44:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * introduce GameClock
+
+Sun Jan 27 21:43:09 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * code cleanup
+
+Sun Jan 27 14:44:40 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * rotating view
+
+Sun Jan 27 14:40:49 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * [coords] bugfix - was upside down!
+
+Sat Jan 26 22:01:35 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * [options] cleanup; -nozoom
+
+Sat Jan 26 21:57:19 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * allow arbitrary resolutions
+
+Sat Jan 26 21:07:34 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * [bugfix] timing
+
+Sat Jan 26 17:00:25 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * tweak
+
+Sat Jan 26 16:59:57 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * pausing; adjustable game rate
+
+Sat Jan 26 16:21:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * limit view in unzoomed mode
+
+Sat Jan 26 14:25:24 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * add shield indicator; change shield colours
+
+Sat Jan 26 13:56:38 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * splitters on 1hp produce only one egg
+
+Sat Jan 26 13:50:35 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * arc heat indicator
+
+Sat Jan 26 12:48:22 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * tweaks
+
+Sat Jan 26 05:33:04 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * shields changes
+
+Sat Jan 26 05:31:53 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * change heat indication
+
+Sat Jan 26 04:39:11 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * collisions with shields
+
+Fri Jan 25 22:57:39 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * shields
+
+Fri Jan 25 22:57:10 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * Further AI removal and foul egg layer changes
+
+Fri Jan 25 20:56:57 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * redo aiming
+
+Thu Jan 24 21:55:52 GMT 2008  Martin Bays <mbays@freeshell.org>
+  UNDO: failed attempted overhaul of aiming
+
+Thu Jan 24 21:55:52 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * failed attempted overhaul of aiming
+
+Wed Jan 23 21:44:24 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * cleanup
+
+Wed Jan 23 21:44:15 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * shrinking foul egg layers
+
+Wed Jan 23 21:08:17 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * foul egg laying invaders
+
+Wed Jan 23 21:07:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * cleanup: dead Invader checking
+
+Wed Jan 23 21:07:15 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * AI() bugfix
+
+Wed Jan 23 21:04:23 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * new invader and collision architectures
+
+Wed Jan 23 21:03:17 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * coord operations
+
+Sat Jan 19 22:02:21 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * zoom toggle
+
+Sat Jan 19 21:48:55 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * zooming and aiming tweaks
+
+Sat Jan 19 21:30:23 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * zooming
+
+Sat Jan 19 18:07:26 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * minimum model stepping time
+
+Sat Jan 19 17:31:35 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * performance tweaks
+
+Sat Jan 19 17:13:52 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * collision bugfix
+
+Sat Jan 19 16:49:33 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * redo timing
+
+Sat Jan 19 16:20:07 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * set caption
+
+Sat Jan 19 14:47:26 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * new collision detection
+
+Sat Jan 19 14:45:44 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * const qualifications
+
+Sat Jan 19 14:45:11 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * shot drawing bugfix
+
+Wed Jan 16 19:49:18 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * report invaderRate
+
+Wed Jan 16 19:49:01 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * difficulty tweaks
+
+Wed Jan 16 19:48:47 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * AI overhaul
+
+Wed Jan 16 19:03:32 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * splitting
+
+Wed Jan 16 19:03:04 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * cleanup
+
+Tue Jan 15 20:51:22 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * recoil
+
+Tue Jan 15 16:04:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * tweak settings
+
+Tue Jan 15 14:25:08 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * varying enemies; heavy shots follow through
+
+Mon Jan 14 20:27:52 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * alternative keybindings
+
+Mon Jan 14 20:09:27 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * scoring and death
+
+Mon Jan 14 19:59:48 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * shot heats
+
+Mon Jan 14 18:31:55 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * cleanup
+
+Mon Jan 14 12:18:28 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * adjustable fps
+
+Mon Jan 14 12:13:25 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * make game logic and drawing methods of GameState
+
+Sun Jan 13 19:34:39 GMT 2008  Martin Bays <mbays@freeshell.org>
+  * initial import

@@ -1,0 +1,17 @@
+Martin Bays <mbays@sdf.lonestar.org>
+Andreas Schiffler - SDL_gfxPrimitives and fonts (taken from SDL_gfx)
+Sijmen Mulder <sjmulder@gmail.com> - Mac port
+
+Sounds - the following sounds were adapted from ones taken from the following
+GPL'd projects:
+    shot.ogg: Gem Drop X by Bill Kendrick
+    invhit.ogg, invdie.ogg: Boodler by Andrew Plotkin 
+    primed.ogg: FXRepton by Sandro Sigala
+    shield.ogg: mmpong
+    mutilation.ogg : Shotgun Debugger by the Game Creation Society
+These are all covered by the GPL - see COPYING.
+
+spark.ogg is adapted from "sparkloop" due to user FreqMan on freesound.org,
+which is released under the Creative Commons "Sampling Plus" License 1.0 - see
+http://creativecommons.org/licenses/sampling+/1.0/.
+Please note that this sound is *not* covered by the GPL.

@@ -1,0 +1,200 @@
+Kuklomenos-0.4.5
+================
+Released under the GPLv3 by Martin Bays (mbays@sdf.lonestar.org) 2009
+
+Dependencies
+------------
+    sdl
+    libcurl (optional; required for high score reporting)
+    libvorbis (optional; required for sound)
+
+
+How to play - very short version
+--------------------------------
+
+Keys: cursors, 1234.
+Aim: to not die.
+
+The rest you can figure out, maybe. If not, see below.
+
+
+The plot
+--------
+
+Peace reigns. We guard the Nodes. Years pass.
+
+Evil comes! Evil seeks the power of the Nodes!
+
+We must defend the Nodes. Evil must not extract their power.
+
+If it is the only way, we must destroy the Nodes ourselves!
+
+It is the only way.
+
+
+How to play - less short version
+--------------------------------
+
+Use the cursor keys to aim, and the numbers 1, 2 and 3 to shoot.
+
+The encroaching Blobs of Evil will kill you if they hit you.
+
+Evil wants to control the triangular Nodes. It will send big blue armoured
+Blobs of Evil to infest them.
+
+You can control the Nodes yourself - press '4' to send a Capture Pod out.
+
+Whoever is in control of a Node gets bonuses - see the list below.
+
+Evil extracts from Nodes it controls, filling the cyan bar in the top right.
+If it fills the bar, it will launch a deadly Wave of Mutilation!
+
+Disinfect an infested Node by shooting the Blob of Evil before it manages to
+put up a shield, or by sending a Capture Pod.
+
+If you keep control of a Node for a while, it will start to pulsate. It is
+then primed for destruction, and a red shot will destroy it.
+
+YOUR AIM: to destroy 4 of the 6 Nodes. Evil will then give up and leave.
+
+
+Further details
+---------------
+
+Aiming:
+The closer together the red lines, the better your aim.
+Your shots will fire between the two bright red lines approximately two thirds
+of the time, and between the dark red lines about 95% of the time.
+When your aim is sharp, you turn slower and can see less of the arena.
+Pressing 'down' will de-aim.
+Pressing 'up' will zoom out so you can see what's going on without losing much
+of your aim.
+
+Display:
+You can toggle zooming with 'z' - though your vision will still be restricted
+when aiming. You can toggle rotation of the arena with 'r'.
+
+Heat:
+Shooting or sending out a pod increases your heat, as indicated by the
+red bar in the top left. You can't shoot while doing so would cause
+overheating.
+
+Shields:
+While your heat is at 0, you will slowly add to your shield. Each hit
+by a Blob will take off one layer of shield. The current level is indicated in
+the top left.
+
+Node powerups:
+    When you control them:
+	Red, Yellow, Green:
+	    increases the speed of the corresponding colour of your shots, and
+	    decreases the reload time and heat cost;
+	Blue:
+	    improves your Capture Pods, including decreasing the time it takes
+	    to prime a Node for destruction;
+	Cyan:
+	    increases shield charge rate;
+	Magenta:
+	    improves aim.
+    When Evil controls them:
+	Red, Yellow, Green:
+	    increases the speed and general nastiness of the corresponding
+	    colour of Blob;
+	Blue:
+	    increases speed and rate of shield-charging and healing of the
+	    blue Blobs;
+	Cyan:
+	    increases rate of extraction from Nodes;
+	Magenta:
+	    causes the Blobs to occasionally unpredictably reverse their
+	    direction of spiraling.
+
+Rating:
+The better your rating, the stronger the force Evil will send to fight you.
+Your rating improves when you win games and diminishes when you lose them.
+You have a rating for each speed setting. Can you make it to Elite? No, me
+neither.
+
+
+Options and Configuration
+-------------------------
+
+Press escape to bring up the menu - navigate with direction keys and escape.
+
+Run with -h for a list of command-line options.
+
+Permanent config settings are stored in ~/.kuklomenosrc, or kuklomenos.txt
+
+
+If you get a low frame rate:
+----------------------------
+
+For reasons as yet undetermined, SDL sometimes fails to pick the correct
+colour depth for the display, resulting in poor performance. If you have
+problems, try adjusting the colour depth either with the '-b' command line
+option or in the menus (settings->graphics->display->depth, set). One depth
+may run faster than the others. Anti-aliasing and displaying a grid both
+adversely affect performance; try 'A' and 'g' respectively.
+
+
+Default Keybindings:
+--------------------
+
+cursor left/right: turn left/right
+cursor down: de-aim
+cursor up: glance back
+1,2,3: fire
+4: launch capture pod
+
+p: pause/unpause
+q: quit
+
+escape: menu
+
+s: toggle sound
+z: toggle zooming
+r: toggle rotation
+g: toggle grid
+a/A: increase/decrease amount of anti-aliasing
+
+[, ]: alter fps
+
++,-,=: alter game rate (not while playing)
+
+
+Details of Game Mechanics:
+--------------------------
+(For those who must know exact details but don't want to sourcedive)
+
+Table of shot stats:
+
+|Colour | Damage | Speed | Delay |  Heat  |
++-------+--------+-------+-------+--------+
+| Green |   1    | 20/25 | 20/10 |  40/28 |
+|Yellow |   2    | 15/20 | 30/25 |  70/49 |
+|  Red  |   3    | 10/15 | 40/30 | 100/70 |
+
+Where there are two numbers separated by a slash, the latter refers to the
+value when you are in possession of the correspondingly coloured Node.
+
+"Speed" is rate of travel of the shot, "Delay" is how long (in 100ths of a
+second measured on Normal gamespeed) you have to wait after firing a shot
+before firing again, and "Heat" indicates how much heat is generated by firing
+the shot.
+
+You can fire one pod every 10 seconds.
+
+Table of shootable objects:
+
+|     Name    | Hit Points | Armour |
++-------------+------------+--------+
+|   Red Blob  |     1      |    0   |
+| Yellow Blob |     2      |    0   |
+|  Green Blob |     3      |    0   |
+| Blue Meanie |     3      |  1/inf |
+|     Pod     |    1/3     |    0   |
+
+A shot with "Damage" d does d-Armour points of damage. Capture Pods normally
+have 1 HP, but a Pod launched when you possess the blue Node will have 3 HP.
+Blue meanies have armour 1 until they manage to put up a shield; they are then
+invulnerable to shots, and can only be destroyed by a Capture Pod.

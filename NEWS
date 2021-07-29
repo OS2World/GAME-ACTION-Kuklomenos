@@ -1,0 +1,75 @@
+0.4.5:
+fix bitrot incompatibility with new versions of libcurl
+
+0.4.4:
+Adjustable sound frequency;
+"Stop-motion" mode, -M;
+Fixed some nasty sound bugs, and made the node-music more musical;
+Fixed buggy installation path.
+
+0.4.3:
+Dithered backgrounds;
+Adjustable sound volume.
+
+0.4.2:
+Configurable keybindings;
+Backgrounds;
+Allow turn rate to be reduced.
+
+0.4.1:
+Sound tweak;
+memory leak bugfix.
+
+0.4:
+Sound;
+Intro screen with AI player;
+Multiple speeds;
+High score recording and reporting;
+Miscellaneous display and interface polishing;
+Some bugfixes, including a crash-bug.
+
+0.3.3.1:
+Fix two small graphics bugs
+
+0.3.3:
+Elaborated graphics of priming, extraction, mutilation and blue meanie
+    healing, in the hopes of making the game mechanics more transparent;
+Denerfed blue and purple nodes slightly;
+Added free-roaming vision for the afterlife.
+
+0.3.2:
+Unnerf cyan;
+Make it clearer when you can pod;
+Improve smoothness under load.
+
+0.3.1.1:
+Fully remove dependency on SDL_gfx (which due to an oversight still existed)
+
+0.3.1:
+Menu system and config saving
+
+0.3:
+Difficulty and balance tweaks;
+Music, with thanks to Skope and Spot;
+Misc bugfixes and minor improvements.
+
+0.2.3.2:
+Worked around very nasty bug with double buffering
+
+0.2.3.1:
+Small but crucial bugfix
+
+0.2.3:
+Further optimizations;
+Added "hints" as a rudimentary form of in-game help;
+Fixed some nasty bugs.
+
+0.2.2:
+Mac port by Sijmen Mulder;
+Display optimizations;
+Misc bugfixes.
+
+0.2.1:
+Display bugfixes/workarounds;
+Missing GPL boilerplate added to source files;
+Documentation improved.
