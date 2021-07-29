@@ -5,7 +5,9 @@ Kuklomenos is an abstract shoot-em-up with minimalistic graphics, short game-len
 * GNU GPL V3
 
 ## COMPILE TOOLS
+* gcc
 * SDL
+* Libvorbis
  
 ## AUTHORS
 * 
